@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let n = 90;
-if (n < 100)
-    n += 10;
-console.log(n);
+function greet(name) {
+    return `Hello ${name}`;
+}
+console.log(greet("Shariq"));
 //# sourceMappingURL=index.js.map
